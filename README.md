@@ -20,7 +20,7 @@ composer require overtrue/flysystem-cos -vvv
 
 ### 本组件
 ```shell
-composer require overtrue/think-filesystem-driver -vvv
+composer require isszz/think-filesystem-driver -vvv
 ```
 
 # 配置
