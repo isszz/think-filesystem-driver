@@ -1,0 +1,27 @@
+{
+    "name": "isszz/think-filesystem-driver",
+    "description": "thinkphp flysystem 驱动, 本组件需要按需自行安装依赖",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "isszz",
+            "email": "isszz@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\filesystem\\driver\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "dev-dev"
+        }
+    }
+}
