@@ -25,12 +25,10 @@ composer require isszz/think-filesystem-driver -vvv
 
 # 配置
 
-在 config/filesystem.php 的 disks 里新增以下配置
+在 config/filesystem.php 的 disks 里更改配置, 或者在.env内新增相关配置字段
 
 ```php
 <?php
-
-use think\facade\Env;
 
 return [
    'disks' => [
@@ -71,6 +69,29 @@ return [
 		// ...
    ]
 ];
+```
+# .env的配置参考
+
+```
+[QINIU]
+ACCESS_KEY = lekrgwlekgjwlekgjlmbdfbhererlkgjerlkgerl
+SECRET_KEY = 4hjf9048t3823hfg8230984u9fj02389urg234ti
+BUCKET = cfyun-img
+DOMAIN = img.cfyun.cc
+
+[OSS]
+ACCESS_KEY = lekrgwlekgjwlekgjlmbdfbhererlkgjerlkgerl
+SECRET_KEY = 4hjf9048t3823hfg8230984u9fj02389urg234ti
+BUCKET = cfyun-img
+DOMAIN = img.cfyun.cc
+IS_NAME = false
+
+[COS]
+APP_ID = lekrgwlekgjwlekgjlmbdfbhererlkgjerlkgerl
+SECRET_ID = 4hjf9048t3823hfg8230984u9fj02389urg234ti
+SECRET_KEY = 4hjf9048t3823hfg8230984u9fj02389urg234ti
+BUCKET = cfyun-img
+cdn = img.cfyun.cc
 ```
 
 ## 基础用法 qiniu, oss, cos 并无差别

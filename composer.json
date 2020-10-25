@@ -23,6 +23,11 @@
     "extra": {
         "branch-alias": {
             "dev-master": "dev-dev"
+        },
+        "think":{
+            "config":{
+                "svgcaptcha": "src/config/config.php"
+            }
         }
     }
 }
