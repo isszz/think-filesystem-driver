@@ -20,7 +20,7 @@ composer require overtrue/flysystem-cos -vvv
 
 ### 本组件
 ```shell
-composer require isszz/think-filesystem-driver -vvv
+composer require cfyun/think-filesystem-driver -vvv
 ```
 
 # 配置
@@ -70,7 +70,7 @@ return [
    ]
 ];
 ```
-# .env的配置参考
+# .env的配置参考(生产模式建议删除.env)
 
 ```
 [QINIU]
