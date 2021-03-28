@@ -1,5 +1,5 @@
 {
-    "name": "isszz/think-filesystem-driver",
+    "name": "cfyun/think-filesystem-driver",
     "description": "thinkphp flysystem 驱动, 本组件需要按需自行安装依赖",
     "license": "MIT",
     "authors": [
@@ -23,11 +23,6 @@
     "extra": {
         "branch-alias": {
             "dev-master": "dev-dev"
-        },
-        "think":{
-            "config":{
-                "svgcaptcha": "src/config/config.php"
-            }
         }
     }
 }
